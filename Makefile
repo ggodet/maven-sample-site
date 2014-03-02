@@ -22,7 +22,7 @@ FAKE_HOME=$(CURDIR)/HOME
 export MAVEN_OPTS=-Djavax.net.ssl.trustStore=/etc/java/security/cacerts -Djavax.net.ssl.trustStorePassword=changeit
 
 demo : force
-	$(MVN)  package site && $(MVN) site:stage && firefox file://$(CURDIR)/site_sample/target/staging/index.html;  
+	$(MVN)  package site && $(MVN) site:stage && firefox file://$(CURDIR)/target/staging/index.html;  
 
 force:
 

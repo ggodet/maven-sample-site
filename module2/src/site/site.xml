@@ -11,68 +11,11 @@
   <bannerRight>
     <src>http://maven.apache.org/images/maven-small.gif</src>
   </bannerRight>
-  <!--skin>
+  <skin>
     <groupId>org.openflexo</groupId>
     <artifactId>openflexo-skin</artifactId>
-    <version>1.0</version>
-  </skin-->
- <!--skin>
-    <groupId>org.apache.maven.skins</groupId>
-    <artifactId>maven-application-skin</artifactId>
-    <version>1.0</version>
-  </skin-->
-  <!-- https://code.google.com/p/fluido-skin/-->
-  <!-- http://maven-guide-fr.erwan-alliaume.com/maven-guide-fr/site/reference/site-generation-sect-reusable-skin.html -->
-  <!-- http://books.sonatype.com/mvnref-book/reference/site-generation-sect-site-appearance.html -->
-  <!-- http://www.coderoshi.com/2007/02/generating-site-and-documentation-in.html -->
-  <!-- http://maven.apache.org/plugins/maven-site-plugin/examples/creatingskins.html -->
-  <!-- https://maven.apache.org/guides/mini/guide-site.html -->
- <skin>
-        <groupId>com.googlecode.fluido-skin</groupId>
-        <artifactId>fluido-skin</artifactId>
-        <version>1.3</version>
-    </skin>
- <!-- http://maven.apache.org/skins/maven-fluido-skin/sample.html-->
- <custom>
-    <fluidoSkin>
-      <topBarEnabled>true</topBarEnabled>
-      <sideBarEnabled>true</sideBarEnabled>
-	 <sourceLineNumbersEnabled>true</sourceLineNumbersEnabled>
-	 <navBarStyle>navbar-inverse</navBarStyle>
- <topBarContainerStyle>width: 90%;</topBarContainerStyle>
-  <topBarIcon>
-        <name>Maven Fluido Skin</name>
-        <alt>Maven Fluido Skin</alt>
-        <src>/images/topbar-logo.png</src>
-        <href>/index.html</href>
-      </topBarIcon>
-  <leftColumnClass>span2</leftColumnClass>
-      <bodyColumnClass>span10</bodyColumnClass>
- <googleSearch>
-        <sitesearch/>
-      </googleSearch>
-  <copyrightClass>pull-right</copyrightClass>
-   <gitHub>
-        <projectId>apache/maven-skins</projectId>
-        <ribbonOrientation>right</ribbonOrientation>
-        <ribbonColor>black</ribbonColor>
-      </gitHub>
- <twitter>
-        <user>simonetripodi</user>
-        <showUser>true</showUser>
-        <showFollowers>true</showFollowers>
-      </twitter>
- <googlePlusOne />
- <skipGenerationDate>true</skipGenerationDate>
-  <breadcrumbDivider>»</breadcrumbDivider>
-  <facebookLike />
-   <googlePlusOne />
-
-
-    </fluidoSkin>
-  </custom>
-
-
+    <version>1.2</version>
+  </skin>
   <body>
     <links>
       <item name="Maven 2" href="http://maven.apache.org/maven2/"/>
